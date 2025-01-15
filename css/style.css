@@ -72,3 +72,25 @@ header {
     background-color: #FF5959;
 }
 /* Media Query  */
+
+@media screen and (max-width: 576px){
+    header {
+        width: 100%;
+        height: auto;
+    }
+    .banner-content {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .banner-title {
+        margin-left: 12px;
+        font-size: 38px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .banner-subtitle {
+        margin-left: 12px;
+        font-size: 16px;
+        text-align: left;
+    }
+}
